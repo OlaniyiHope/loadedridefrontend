@@ -1,0 +1,16 @@
+diff --git a/node_modules/react-native-drop-shadow/android/build.gradle b/node_modules/react-native-drop-shadow/android/build.gradle
+index ad074d1..062c5d2 100644
+--- a/node_modules/react-native-drop-shadow/android/build.gradle
++++ b/node_modules/react-native-drop-shadow/android/build.gradle
+@@ -20,6 +20,11 @@ def safeExtGet(prop, fallback) {
+ 
+ android {
+     compileSdkVersion safeExtGet('DropShadow_compileSdkVersion', 31)
++      namespace "com.reactnativedropshadow"
++      buildFeatures {
++  buildConfig true
++}
++
+     defaultConfig {
+         minSdkVersion safeExtGet('DropShadow_minSdkVersion', 21)
+         targetSdkVersion safeExtGet('DropShadow_targetSdkVersion', 31)

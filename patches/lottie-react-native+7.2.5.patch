@@ -1,0 +1,14 @@
+diff --git a/node_modules/lottie-react-native/android/build.gradle b/node_modules/lottie-react-native/android/build.gradle
+index 095c090..ce1d7c4 100644
+--- a/node_modules/lottie-react-native/android/build.gradle
++++ b/node_modules/lottie-react-native/android/build.gradle
+@@ -40,6 +40,9 @@ android {
+         // print
+         println "DEPRECATION WARNING: The `namespace` property is not available in your version of AGP. Please upgrade to AGP 4.2+."
+     }
++    buildFeatures {
++        buildConfig true
++    }
+ 
+     compileSdk getExtOrDefault('compileSdkVersion', 31)
+ 

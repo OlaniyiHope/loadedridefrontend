@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "696256472228",
+    "firebase_url": "https://finomic-17805-default-rtdb.firebaseio.com",
+    "project_id": "finomic-17805",
+    "storage_bucket": "finomic-17805.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696256472228:android:3e5dcc4c1de557f135b231",
+        "android_client_info": {
+          "package_name": "com.bid4cab.customer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKqmfy2aU8hdf9teA8Zql5DC9f2BrShCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

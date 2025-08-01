@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bid4cab.customer.app-mergeDebugResources-4:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/private/var/root/.gradle/caches/transforms-3/f9a264ac4e414738607de77929646735/transformed/appcompat-1.7.0/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+diff --git a/node_modules/@react-native-community/geolocation/android/build.gradle b/node_modules/@react-native-community/geolocation/android/build.gradle
+index aab4a31..c4cd2fc 100644
+--- a/node_modules/@react-native-community/geolocation/android/build.gradle
++++ b/node_modules/@react-native-community/geolocation/android/build.gradle
+@@ -32,7 +32,9 @@ android {
+   if (agpVersion.tokenize('.')[0].toInteger() >= 7) {
+     namespace = "com.reactnativecommunity.geolocation"
+   }
+-
++   buildFeatures {
++        buildConfig true
++    }
+   compileSdkVersion getExtOrIntegerDefault('compileSdkVersion')
+ 
+   defaultConfig {

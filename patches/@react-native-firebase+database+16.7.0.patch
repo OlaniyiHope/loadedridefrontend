@@ -1,0 +1,16 @@
+diff --git a/node_modules/@react-native-firebase/database/android/build.gradle b/node_modules/@react-native-firebase/database/android/build.gradle
+index 44d848b..599ad81 100644
+--- a/node_modules/@react-native-firebase/database/android/build.gradle
++++ b/node_modules/@react-native-firebase/database/android/build.gradle
+@@ -60,6 +60,11 @@ project.ext {
+ }
+ 
+ android {
++      namespace 'io.invertase.firebase.database'
++
++    buildFeatures {
++        buildConfig true
++    }
+   defaultConfig {
+     multiDexEnabled true
+   }

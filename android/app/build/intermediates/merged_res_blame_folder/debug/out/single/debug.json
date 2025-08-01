@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.bid4cab.customer.app-main-8:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/raw_notification.wav.flat",
+        "source": "com.bid4cab.customer.app-main-8:/raw/notification.wav"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-ldpi_ic_launcher_round.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-ldpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/xml_network_security_config.xml.flat",
+        "source": "com.bid4cab.customer.app-main-8:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-ldpi_ic_launcher.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.bid4cab.customer.app-merged_res-6:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bid4cab.customer.app-main-8:/mipmap-xhdpi/ic_launcher_foreground.png"
+    }
+]

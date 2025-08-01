@@ -1,0 +1,878 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bid4cab.customer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:7:5-77
+11-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:7:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:5:5-80
+13-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:6:5-79
+14-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:8:5-65
+15-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:8:22-62
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:9:5-66
+16-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:9:22-63
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:10:5-80
+17-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:10:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:11:5-81
+18-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+19-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:12:5-84
+19-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:12:22-82
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:13:5-67
+20-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:13:22-65
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:14:5-76
+21-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:14:22-74
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:15:5-78
+22-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:15:22-76
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to access Google Play Licensing -->
+23-->[com.facebook.flipper:flipper:0.125.0] /private/var/root/.gradle/caches/transforms-3/28451e79fe8c3a1af1e95e998faeca97/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+23-->[com.facebook.flipper:flipper:0.125.0] /private/var/root/.gradle/caches/transforms-3/28451e79fe8c3a1af1e95e998faeca97/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+24    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+24-->[:rn-fetch-blob] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+24-->[:rn-fetch-blob] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+25
+26    <queries>
+26-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:10:5-39:15
+27        <intent>
+27-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:11:9-17:18
+28            <action android:name="android.intent.action.VIEW" />
+28-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:12:13-65
+28-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:12:21-62
+29
+30            <data
+30-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:14:13-16:38
+31                android:mimeType="*/*"
+31-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:15:17-39
+32                android:scheme="*" />
+32-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:16:17-35
+33        </intent>
+34        <intent>
+34-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:18:9-27:18
+35            <action android:name="android.intent.action.VIEW" />
+35-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:12:13-65
+35-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:12:21-62
+36
+37            <category android:name="android.intent.category.BROWSABLE" />
+37-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:21:13-74
+37-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:21:23-71
+38
+39            <data
+39-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:14:13-16:38
+40                android:host="pay"
+41                android:mimeType="*/*"
+41-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:15:17-39
+42                android:scheme="upi" />
+42-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:16:17-35
+43        </intent>
+44        <intent>
+44-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:28:9-30:18
+45            <action android:name="android.intent.action.MAIN" />
+45-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:50:13-65
+45-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:50:21-62
+46        </intent>
+47        <intent>
+47-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:31:9-35:18
+48            <action android:name="android.intent.action.SEND" />
+48-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:32:13-65
+48-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:32:21-62
+49
+50            <data android:mimeType="*/*" />
+50-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:14:13-16:38
+50-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:15:17-39
+51        </intent>
+52        <intent>
+52-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:36:9-38:18
+53            <action android:name="rzp.device_token.share" />
+53-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:37:13-61
+53-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:37:21-58
+54        </intent>
+55        <!-- Needs to be explicitly declared on Android R+ -->
+56        <package android:name="com.google.android.apps.maps" />
+56-->[com.google.android.gms:play-services-maps:18.2.0] /private/var/root/.gradle/caches/transforms-3/4d3e7a124552786113737dc607756123/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+56-->[com.google.android.gms:play-services-maps:18.2.0] /private/var/root/.gradle/caches/transforms-3/4d3e7a124552786113737dc607756123/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+57    </queries>
+58
+59    <uses-feature
+59-->[com.google.android.gms:play-services-maps:18.2.0] /private/var/root/.gradle/caches/transforms-3/4d3e7a124552786113737dc607756123/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+60        android:glEsVersion="0x00020000"
+60-->[com.google.android.gms:play-services-maps:18.2.0] /private/var/root/.gradle/caches/transforms-3/4d3e7a124552786113737dc607756123/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+61        android:required="true" />
+61-->[com.google.android.gms:play-services-maps:18.2.0] /private/var/root/.gradle/caches/transforms-3/4d3e7a124552786113737dc607756123/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+62
+63    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+63-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:25:5-77
+63-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:25:22-74
+64    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+64-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:28:5-82
+64-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:28:22-79
+65    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+65-->[com.google.android.gms:play-services-measurement-api:21.2.0] /private/var/root/.gradle/caches/transforms-3/7386279f5e7e146b92e6d568852008c3/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+65-->[com.google.android.gms:play-services-measurement-api:21.2.0] /private/var/root/.gradle/caches/transforms-3/7386279f5e7e146b92e6d568852008c3/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+66    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+66-->[com.google.android.gms:play-services-measurement:21.2.0] /private/var/root/.gradle/caches/transforms-3/c6e344fc91e1daefca56bd76b08cfecf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+66-->[com.google.android.gms:play-services-measurement:21.2.0] /private/var/root/.gradle/caches/transforms-3/c6e344fc91e1daefca56bd76b08cfecf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+67
+68    <permission
+68-->[androidx.core:core:1.16.0] /private/var/root/.gradle/caches/transforms-3/bba628845674b6bf1d893c66c7d86c17/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+69        android:name="com.bid4cab.customer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+69-->[androidx.core:core:1.16.0] /private/var/root/.gradle/caches/transforms-3/bba628845674b6bf1d893c66c7d86c17/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+70        android:protectionLevel="signature" />
+70-->[androidx.core:core:1.16.0] /private/var/root/.gradle/caches/transforms-3/bba628845674b6bf1d893c66c7d86c17/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+71
+72    <uses-permission android:name="com.bid4cab.customer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
+72-->[androidx.core:core:1.16.0] /private/var/root/.gradle/caches/transforms-3/bba628845674b6bf1d893c66c7d86c17/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+72-->[androidx.core:core:1.16.0] /private/var/root/.gradle/caches/transforms-3/bba628845674b6bf1d893c66c7d86c17/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+73    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+74    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+75    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+76    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+77    <!-- for Samsung -->
+78    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+78-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+78-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+79    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+79-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+79-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+80    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+80-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+80-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+81    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+81-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+81-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+82    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+82-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+82-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+83    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+83-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+83-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+84    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+84-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+84-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+85    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+85-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+85-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+86    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+86-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+86-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+87    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+87-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+87-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+88    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+88-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+88-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+89    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+89-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+89-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+90    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+90-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+90-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+91    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+91-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+91-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+92    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+92-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+92-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+93    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+93-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+93-->[me.leolin:ShortcutBadger:1.1.22] /private/var/root/.gradle/caches/transforms-3/c765087b5956610c256d8ef428031555/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+94
+95    <application
+95-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:17:5-55:19
+96        android:name="com.bid4cab.customer.MainApplication"
+96-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:18:7-38
+97        android:allowBackup="false"
+97-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:22:7-34
+98        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+98-->[androidx.core:core:1.16.0] /private/var/root/.gradle/caches/transforms-3/bba628845674b6bf1d893c66c7d86c17/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+99        android:debuggable="true"
+100        android:icon="@mipmap/ic_launcher"
+100-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:20:7-41
+101        android:label="@string/app_name"
+101-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:19:7-39
+102        android:roundIcon="@mipmap/ic_launcher_round"
+102-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:21:7-52
+103        android:theme="@style/AppTheme"
+103-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:23:7-38
+104        android:usesCleartextTraffic="true" >
+104-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/debug/AndroidManifest.xml:8:9-44
+105        <activity
+105-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/debug/AndroidManifest.xml:11:9-111
+106            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+106-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/debug/AndroidManifest.xml:11:19-83
+107            android:exported="false" />
+107-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/debug/AndroidManifest.xml:11:84-108
+108
+109        <meta-data
+109-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:24:7-25:44
+110            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+110-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:24:19-95
+111            android:value="false" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+111-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:25:21-42
+112        <meta-data
+112-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:27:7-28:52
+113            android:name="com.dieam.reactnativepushnotification.notification_color"
+113-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:27:19-90
+114            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+114-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:28:19-50
+115        <receiver
+115-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:30:7-130
+116            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions"
+116-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:30:41-127
+117            android:exported="true" />
+117-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:30:17-40
+118        <receiver
+118-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:31:7-132
+119            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher"
+119-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:31:41-129
+120            android:exported="true" />
+120-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:31:17-40
+121        <receiver
+121-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:32:7-38:18
+122            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+122-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:32:41-137
+123            android:exported="true" >
+123-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:32:17-40
+124            <intent-filter>
+124-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:33:11-37:27
+125                <action android:name="android.intent.action.BOOT_COMPLETED" />
+125-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:34:15-77
+125-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:34:23-74
+126                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+126-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:35:15-80
+126-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:35:23-77
+127                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+127-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:36:15-79
+127-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:36:23-77
+128            </intent-filter>
+129        </receiver>
+130
+131        <meta-data
+131-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:39:7-41:40
+132            android:name="com.google.android.geo.API_KEY"
+132-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:40:9-54
+133            android:value="enter_map_key" />
+133-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:41:9-38
+134
+135        <activity
+135-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:42:7-54:18
+136            android:name="com.bid4cab.customer.MainActivity"
+136-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:43:9-37
+137            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+137-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:45:9-118
+138            android:exported="true"
+138-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:48:9-32
+139            android:label="@string/app_name"
+139-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:44:9-41
+140            android:launchMode="singleTask"
+140-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:46:9-40
+141            android:windowSoftInputMode="adjustResize" >
+141-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:47:9-51
+142            <intent-filter>
+142-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:49:9-53:25
+143                <action android:name="android.intent.action.MAIN" />
+143-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:50:13-65
+143-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:50:21-62
+144
+145                <category android:name="android.intent.category.LAUNCHER" />
+145-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:51:13-73
+145-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:51:23-70
+146
+147                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+147-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:52:13-77
+147-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:52:21-75
+148            </intent-filter>
+149        </activity>
+150
+151        <meta-data
+151-->[:react-native-firebase_app] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+152            android:name="app_data_collection_default_enabled"
+152-->[:react-native-firebase_app] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+153            android:value="true" />
+153-->[:react-native-firebase_app] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+154
+155        <service
+155-->[:react-native-firebase_app] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+156            android:name="com.google.firebase.components.ComponentDiscoveryService"
+156-->[:react-native-firebase_app] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+157            android:directBootAware="true"
+157-->[:react-native-firebase_app] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+158            android:exported="false" >
+158-->[:react-native-firebase_app] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+159            <meta-data
+159-->[:react-native-firebase_app] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+160                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+160-->[:react-native-firebase_app] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[:react-native-firebase_app] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:55:13-57:85
+163                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+163-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:56:17-119
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:57:17-82
+165            <meta-data
+165-->[com.google.firebase:firebase-database:20.1.0] /private/var/root/.gradle/caches/transforms-3/21cc9f9afd4eef699071b243ddf17f0c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+166                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+166-->[com.google.firebase:firebase-database:20.1.0] /private/var/root/.gradle/caches/transforms-3/21cc9f9afd4eef699071b243ddf17f0c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+167                android:value="com.google.firebase.components.ComponentRegistrar" />
+167-->[com.google.firebase:firebase-database:20.1.0] /private/var/root/.gradle/caches/transforms-3/21cc9f9afd4eef699071b243ddf17f0c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+168            <meta-data
+168-->[com.google.android.gms:play-services-measurement-api:21.2.0] /private/var/root/.gradle/caches/transforms-3/7386279f5e7e146b92e6d568852008c3/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+169                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+169-->[com.google.android.gms:play-services-measurement-api:21.2.0] /private/var/root/.gradle/caches/transforms-3/7386279f5e7e146b92e6d568852008c3/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+170                android:value="com.google.firebase.components.ComponentRegistrar" />
+170-->[com.google.android.gms:play-services-measurement-api:21.2.0] /private/var/root/.gradle/caches/transforms-3/7386279f5e7e146b92e6d568852008c3/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+171            <meta-data
+171-->[com.google.firebase:firebase-datatransport:18.1.7] /private/var/root/.gradle/caches/transforms-3/2f1cf63aebc2705f6bcf8c5ab819e44a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+172                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+172-->[com.google.firebase:firebase-datatransport:18.1.7] /private/var/root/.gradle/caches/transforms-3/2f1cf63aebc2705f6bcf8c5ab819e44a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+173                android:value="com.google.firebase.components.ComponentRegistrar" />
+173-->[com.google.firebase:firebase-datatransport:18.1.7] /private/var/root/.gradle/caches/transforms-3/2f1cf63aebc2705f6bcf8c5ab819e44a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+174            <meta-data
+174-->[com.google.firebase:firebase-installations:17.1.0] /private/var/root/.gradle/caches/transforms-3/4b7a68626ce5bc1e63743b8bc79ff7d2/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+175                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+175-->[com.google.firebase:firebase-installations:17.1.0] /private/var/root/.gradle/caches/transforms-3/4b7a68626ce5bc1e63743b8bc79ff7d2/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.firebase:firebase-installations:17.1.0] /private/var/root/.gradle/caches/transforms-3/4b7a68626ce5bc1e63743b8bc79ff7d2/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+177        </service>
+178
+179        <provider
+179-->[:react-native-firebase_app] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+180            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+180-->[:react-native-firebase_app] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+181            android:authorities="com.bid4cab.customer.reactnativefirebaseappinitprovider"
+181-->[:react-native-firebase_app] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+182            android:exported="false"
+182-->[:react-native-firebase_app] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+183            android:initOrder="99" />
+183-->[:react-native-firebase_app] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+184        <provider
+184-->[:react-native-image-picker] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+185            android:name="com.imagepicker.ImagePickerProvider"
+185-->[:react-native-image-picker] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+186            android:authorities="com.bid4cab.customer.imagepickerprovider"
+186-->[:react-native-image-picker] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+187            android:exported="false"
+187-->[:react-native-image-picker] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+188            android:grantUriPermissions="true" >
+188-->[:react-native-image-picker] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+189            <meta-data
+189-->[:react-native-image-picker] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+190                android:name="android.support.FILE_PROVIDER_PATHS"
+190-->[:react-native-image-picker] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+191                android:resource="@xml/imagepicker_provider_paths" />
+191-->[:react-native-image-picker] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+192        </provider>
+193
+194        <activity
+194-->[:react-native-razorpay] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:86
+195            android:name="com.razorpay.CheckoutActivity"
+195-->[:react-native-razorpay] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-57
+196            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+196-->[:react-native-razorpay] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-83
+197            android:exported="false"
+197-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:45:13-37
+198            android:theme="@style/CheckoutTheme" >
+198-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:46:13-49
+199            <intent-filter>
+199-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:47:13-49:29
+200                <action android:name="android.intent.action.MAIN" />
+200-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:50:13-65
+200-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:50:21-62
+201            </intent-filter>
+202        </activity>
+203
+204        <provider
+204-->[:react-native-webview] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+205            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+205-->[:react-native-webview] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+206            android:authorities="com.bid4cab.customer.fileprovider"
+206-->[:react-native-webview] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+207            android:exported="false"
+207-->[:react-native-webview] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+208            android:grantUriPermissions="true" >
+208-->[:react-native-webview] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+209            <meta-data
+209-->[:react-native-image-picker] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+210                android:name="android.support.FILE_PROVIDER_PATHS"
+210-->[:react-native-image-picker] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+211                android:resource="@xml/file_provider_paths" />
+211-->[:react-native-image-picker] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+212        </provider>
+213        <provider
+213-->[:rn-fetch-blob] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+214            android:name="com.RNFetchBlob.Utils.FileProvider"
+214-->[:rn-fetch-blob] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+215            android:authorities="com.bid4cab.customer.provider"
+215-->[:rn-fetch-blob] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+216            android:exported="false"
+216-->[:rn-fetch-blob] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+217            android:grantUriPermissions="true" >
+217-->[:rn-fetch-blob] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+218            <meta-data
+218-->[:react-native-image-picker] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+219                android:name="android.support.FILE_PROVIDER_PATHS"
+219-->[:react-native-image-picker] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+220                android:resource="@xml/provider_paths" />
+220-->[:react-native-image-picker] /Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+221        </provider>
+222        <provider
+222-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+223            android:name="androidx.startup.InitializationProvider"
+223-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+224            android:authorities="com.bid4cab.customer.androidx-startup"
+224-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+225            android:exported="false" >
+225-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+226            <meta-data
+226-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+227                android:name="androidx.work.WorkManagerInitializer"
+227-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+228                android:value="androidx.startup" />
+228-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+229            <meta-data
+229-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:57:13-59:52
+230                android:name="com.razorpay.RazorpayInitializer"
+230-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:58:17-64
+231                android:value="androidx.startup" />
+231-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:59:17-49
+232            <meta-data
+232-->[androidx.emoji2:emoji2:1.3.0] /private/var/root/.gradle/caches/transforms-3/088af07ef09ca3bfae1020d63164918d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+233                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+233-->[androidx.emoji2:emoji2:1.3.0] /private/var/root/.gradle/caches/transforms-3/088af07ef09ca3bfae1020d63164918d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+234                android:value="androidx.startup" />
+234-->[androidx.emoji2:emoji2:1.3.0] /private/var/root/.gradle/caches/transforms-3/088af07ef09ca3bfae1020d63164918d/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+235            <meta-data
+235-->[androidx.lifecycle:lifecycle-process:2.6.2] /private/var/root/.gradle/caches/transforms-3/34aae514ab17da91c6d0848d6552c865/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+236                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+236-->[androidx.lifecycle:lifecycle-process:2.6.2] /private/var/root/.gradle/caches/transforms-3/34aae514ab17da91c6d0848d6552c865/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+237                android:value="androidx.startup" />
+237-->[androidx.lifecycle:lifecycle-process:2.6.2] /private/var/root/.gradle/caches/transforms-3/34aae514ab17da91c6d0848d6552c865/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+238            <meta-data
+238-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+239                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+239-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+240                android:value="androidx.startup" />
+240-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+241        </provider>
+242
+243        <service
+243-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+244            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+244-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+245            android:directBootAware="false"
+245-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+246            android:enabled="@bool/enable_system_alarm_service_default"
+246-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+247            android:exported="false" />
+247-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+248        <service
+248-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+249            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+249-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+250            android:directBootAware="false"
+250-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+251            android:enabled="@bool/enable_system_job_service_default"
+251-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+252            android:exported="true"
+252-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+253            android:permission="android.permission.BIND_JOB_SERVICE" />
+253-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+254        <service
+254-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+255            android:name="androidx.work.impl.foreground.SystemForegroundService"
+255-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+256            android:directBootAware="false"
+256-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+257            android:enabled="@bool/enable_system_foreground_service_default"
+257-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+258            android:exported="false" />
+258-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+259
+260        <receiver
+260-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+261            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+261-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+262            android:directBootAware="false"
+262-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+263            android:enabled="true"
+263-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+264            android:exported="false" />
+264-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+265        <receiver
+265-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+266            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+266-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+267            android:directBootAware="false"
+267-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+268            android:enabled="false"
+268-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+269            android:exported="false" >
+269-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+270            <intent-filter>
+270-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+271                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+271-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+271-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+272                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+272-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+272-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+273            </intent-filter>
+274        </receiver>
+275        <receiver
+275-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+276            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+276-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+277            android:directBootAware="false"
+277-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+278            android:enabled="false"
+278-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+279            android:exported="false" >
+279-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+280            <intent-filter>
+280-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+281                <action android:name="android.intent.action.BATTERY_OKAY" />
+281-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+281-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+282                <action android:name="android.intent.action.BATTERY_LOW" />
+282-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+282-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+283            </intent-filter>
+284        </receiver>
+285        <receiver
+285-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+286            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+286-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+287            android:directBootAware="false"
+287-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+288            android:enabled="false"
+288-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+289            android:exported="false" >
+289-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+290            <intent-filter>
+290-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+291                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+291-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+291-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+292                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+292-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+292-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+293            </intent-filter>
+294        </receiver>
+295        <receiver
+295-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+296            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+296-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+297            android:directBootAware="false"
+297-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+298            android:enabled="false"
+298-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+299            android:exported="false" >
+299-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+300            <intent-filter>
+300-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+301                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+301-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+301-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+302            </intent-filter>
+303        </receiver>
+304        <receiver
+304-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+305            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+305-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+306            android:directBootAware="false"
+306-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+307            android:enabled="false"
+307-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+308            android:exported="false" >
+308-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+309            <intent-filter>
+309-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+310                <action android:name="android.intent.action.BOOT_COMPLETED" />
+310-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:34:15-77
+310-->/Users/hopeolaniyi/Downloads/codecanyon-7psXRW7u-indrive-clone-taxi-app-bid4cab/bid4cab_customer/android/app/src/main/AndroidManifest.xml:34:23-74
+311                <action android:name="android.intent.action.TIME_SET" />
+311-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+311-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+312                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+312-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+312-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+313            </intent-filter>
+314        </receiver>
+315        <receiver
+315-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+316            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+316-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+317            android:directBootAware="false"
+317-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+318            android:enabled="@bool/enable_system_alarm_service_default"
+318-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+319            android:exported="false" >
+319-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+320            <intent-filter>
+320-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+321                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+321-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+321-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+322            </intent-filter>
+323        </receiver>
+324        <receiver
+324-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+325            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+325-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+326            android:directBootAware="false"
+326-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+327            android:enabled="true"
+327-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+328            android:exported="true"
+328-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+329            android:permission="android.permission.DUMP" >
+329-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+330            <intent-filter>
+330-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+331                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+331-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+331-->[androidx.work:work-runtime:2.7.1] /private/var/root/.gradle/caches/transforms-3/188032af2c0b643cff0941764146ce20/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+332            </intent-filter>
+333        </receiver>
+334
+335        <service
+335-->[androidx.room:room-runtime:2.2.5] /private/var/root/.gradle/caches/transforms-3/924dffa77eb84be3e02133b485863930/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+336            android:name="androidx.room.MultiInstanceInvalidationService"
+336-->[androidx.room:room-runtime:2.2.5] /private/var/root/.gradle/caches/transforms-3/924dffa77eb84be3e02133b485863930/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+337            android:directBootAware="true"
+337-->[androidx.room:room-runtime:2.2.5] /private/var/root/.gradle/caches/transforms-3/924dffa77eb84be3e02133b485863930/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+338            android:exported="false" />
+338-->[androidx.room:room-runtime:2.2.5] /private/var/root/.gradle/caches/transforms-3/924dffa77eb84be3e02133b485863930/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+339
+340        <meta-data
+340-->[com.google.maps.android:android-maps-utils:3.8.2] /private/var/root/.gradle/caches/transforms-3/8cc2c628663416a01719d484e23768b4/transformed/jetified-android-maps-utils-3.8.2/AndroidManifest.xml:8:9-10:69
+341            android:name="com.google.android.gms.version"
+341-->[com.google.maps.android:android-maps-utils:3.8.2] /private/var/root/.gradle/caches/transforms-3/8cc2c628663416a01719d484e23768b4/transformed/jetified-android-maps-utils-3.8.2/AndroidManifest.xml:9:13-58
+342            android:value="@integer/google_play_services_version" />
+342-->[com.google.maps.android:android-maps-utils:3.8.2] /private/var/root/.gradle/caches/transforms-3/8cc2c628663416a01719d484e23768b4/transformed/jetified-android-maps-utils-3.8.2/AndroidManifest.xml:10:13-66
+343
+344        <activity
+344-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:62:9-65:75
+345            android:name="com.razorpay.MagicXActivity"
+345-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:63:13-55
+346            android:exported="false"
+346-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:64:13-37
+347            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+347-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:65:13-72
+348
+349        <meta-data
+349-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:67:9-69:58
+350            android:name="com.razorpay.plugin.googlepay_all"
+350-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:68:13-61
+351            android:value="com.razorpay.RzpGpayMerged" /> <!-- Needs to be explicitly declared on P+ -->
+351-->[com.razorpay:standard-core:1.6.53] /private/var/root/.gradle/caches/transforms-3/70e5c3e60f9e8bfa838c46e83cb8c7e3/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:69:13-55
+352        <uses-library
+352-->[com.google.android.gms:play-services-maps:18.2.0] /private/var/root/.gradle/caches/transforms-3/4d3e7a124552786113737dc607756123/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+353            android:name="org.apache.http.legacy"
+353-->[com.google.android.gms:play-services-maps:18.2.0] /private/var/root/.gradle/caches/transforms-3/4d3e7a124552786113737dc607756123/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+354            android:required="false" />
+354-->[com.google.android.gms:play-services-maps:18.2.0] /private/var/root/.gradle/caches/transforms-3/4d3e7a124552786113737dc607756123/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+355
+356        <activity
+356-->[com.google.android.gms:play-services-auth:21.1.0] /private/var/root/.gradle/caches/transforms-3/6ad628cb4ba5ca8ec9d728b4d57ee0ef/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:23:9-27:75
+357            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+357-->[com.google.android.gms:play-services-auth:21.1.0] /private/var/root/.gradle/caches/transforms-3/6ad628cb4ba5ca8ec9d728b4d57ee0ef/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:24:13-93
+358            android:excludeFromRecents="true"
+358-->[com.google.android.gms:play-services-auth:21.1.0] /private/var/root/.gradle/caches/transforms-3/6ad628cb4ba5ca8ec9d728b4d57ee0ef/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:25:13-46
+359            android:exported="false"
+359-->[com.google.android.gms:play-services-auth:21.1.0] /private/var/root/.gradle/caches/transforms-3/6ad628cb4ba5ca8ec9d728b4d57ee0ef/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:26:13-37
+360            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+360-->[com.google.android.gms:play-services-auth:21.1.0] /private/var/root/.gradle/caches/transforms-3/6ad628cb4ba5ca8ec9d728b4d57ee0ef/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:27:13-72
+361        <!--
+362            Service handling Google Sign-In user revocation. For apps that do not integrate with
+363            Google Sign-In, this service will never be started.
+364        -->
+365        <service
+365-->[com.google.android.gms:play-services-auth:21.1.0] /private/var/root/.gradle/caches/transforms-3/6ad628cb4ba5ca8ec9d728b4d57ee0ef/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:33:9-37:51
+366            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+366-->[com.google.android.gms:play-services-auth:21.1.0] /private/var/root/.gradle/caches/transforms-3/6ad628cb4ba5ca8ec9d728b4d57ee0ef/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:34:13-89
+367            android:exported="true"
+367-->[com.google.android.gms:play-services-auth:21.1.0] /private/var/root/.gradle/caches/transforms-3/6ad628cb4ba5ca8ec9d728b4d57ee0ef/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:35:13-36
+368            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+368-->[com.google.android.gms:play-services-auth:21.1.0] /private/var/root/.gradle/caches/transforms-3/6ad628cb4ba5ca8ec9d728b4d57ee0ef/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:36:13-107
+369            android:visibleToInstantApps="true" />
+369-->[com.google.android.gms:play-services-auth:21.1.0] /private/var/root/.gradle/caches/transforms-3/6ad628cb4ba5ca8ec9d728b4d57ee0ef/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:37:13-48
+370
+371        <receiver
+371-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:31:9-38:20
+372            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+372-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:32:13-78
+373            android:exported="true"
+373-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:33:13-36
+374            android:permission="com.google.android.c2dm.permission.SEND" >
+374-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:34:13-73
+375            <intent-filter>
+375-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:35:13-37:29
+376                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+376-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:36:17-81
+376-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:36:25-78
+377            </intent-filter>
+378        </receiver>
+379        <!--
+380             FirebaseMessagingService performs security checks at runtime,
+381             but set to not exported to explicitly avoid allowing another app to call it.
+382        -->
+383        <service
+383-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:44:9-51:19
+384            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+384-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:45:13-82
+385            android:directBootAware="true"
+385-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:46:13-43
+386            android:exported="false" >
+386-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:47:13-37
+387            <intent-filter android:priority="-500" >
+387-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:48:13-50:29
+387-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:48:28-51
+388                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+388-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:49:17-78
+388-->[com.google.firebase:firebase-messaging:23.1.1] /private/var/root/.gradle/caches/transforms-3/1c9ba4a16d43bd652c0f08965f443908/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:49:25-75
+389            </intent-filter>
+390        </service>
+391
+392        <activity
+392-->[com.google.android.gms:play-services-base:18.3.0] /private/var/root/.gradle/caches/transforms-3/a6039ff137199eede0df242a9b70c7e2/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+393            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+393-->[com.google.android.gms:play-services-base:18.3.0] /private/var/root/.gradle/caches/transforms-3/a6039ff137199eede0df242a9b70c7e2/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+394            android:exported="false"
+394-->[com.google.android.gms:play-services-base:18.3.0] /private/var/root/.gradle/caches/transforms-3/a6039ff137199eede0df242a9b70c7e2/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+395            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+395-->[com.google.android.gms:play-services-base:18.3.0] /private/var/root/.gradle/caches/transforms-3/a6039ff137199eede0df242a9b70c7e2/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+396
+397        <provider
+397-->[com.google.firebase:firebase-common:20.2.0] /private/var/root/.gradle/caches/transforms-3/642ef336a20fa7d3fe2b613b3bf99474/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+398            android:name="com.google.firebase.provider.FirebaseInitProvider"
+398-->[com.google.firebase:firebase-common:20.2.0] /private/var/root/.gradle/caches/transforms-3/642ef336a20fa7d3fe2b613b3bf99474/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+399            android:authorities="com.bid4cab.customer.firebaseinitprovider"
+399-->[com.google.firebase:firebase-common:20.2.0] /private/var/root/.gradle/caches/transforms-3/642ef336a20fa7d3fe2b613b3bf99474/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+400            android:directBootAware="true"
+400-->[com.google.firebase:firebase-common:20.2.0] /private/var/root/.gradle/caches/transforms-3/642ef336a20fa7d3fe2b613b3bf99474/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+401            android:exported="false"
+401-->[com.google.firebase:firebase-common:20.2.0] /private/var/root/.gradle/caches/transforms-3/642ef336a20fa7d3fe2b613b3bf99474/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+402            android:initOrder="100" />
+402-->[com.google.firebase:firebase-common:20.2.0] /private/var/root/.gradle/caches/transforms-3/642ef336a20fa7d3fe2b613b3bf99474/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+403
+404        <receiver
+404-->[com.google.android.gms:play-services-measurement:21.2.0] /private/var/root/.gradle/caches/transforms-3/c6e344fc91e1daefca56bd76b08cfecf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+405            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+405-->[com.google.android.gms:play-services-measurement:21.2.0] /private/var/root/.gradle/caches/transforms-3/c6e344fc91e1daefca56bd76b08cfecf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+406            android:enabled="true"
+406-->[com.google.android.gms:play-services-measurement:21.2.0] /private/var/root/.gradle/caches/transforms-3/c6e344fc91e1daefca56bd76b08cfecf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+407            android:exported="false" >
+407-->[com.google.android.gms:play-services-measurement:21.2.0] /private/var/root/.gradle/caches/transforms-3/c6e344fc91e1daefca56bd76b08cfecf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+408        </receiver>
+409
+410        <service
+410-->[com.google.android.gms:play-services-measurement:21.2.0] /private/var/root/.gradle/caches/transforms-3/c6e344fc91e1daefca56bd76b08cfecf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+411            android:name="com.google.android.gms.measurement.AppMeasurementService"
+411-->[com.google.android.gms:play-services-measurement:21.2.0] /private/var/root/.gradle/caches/transforms-3/c6e344fc91e1daefca56bd76b08cfecf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+412            android:enabled="true"
+412-->[com.google.android.gms:play-services-measurement:21.2.0] /private/var/root/.gradle/caches/transforms-3/c6e344fc91e1daefca56bd76b08cfecf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+413            android:exported="false" />
+413-->[com.google.android.gms:play-services-measurement:21.2.0] /private/var/root/.gradle/caches/transforms-3/c6e344fc91e1daefca56bd76b08cfecf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+414        <service
+414-->[com.google.android.gms:play-services-measurement:21.2.0] /private/var/root/.gradle/caches/transforms-3/c6e344fc91e1daefca56bd76b08cfecf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+415            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+415-->[com.google.android.gms:play-services-measurement:21.2.0] /private/var/root/.gradle/caches/transforms-3/c6e344fc91e1daefca56bd76b08cfecf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+416            android:enabled="true"
+416-->[com.google.android.gms:play-services-measurement:21.2.0] /private/var/root/.gradle/caches/transforms-3/c6e344fc91e1daefca56bd76b08cfecf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+417            android:exported="false"
+417-->[com.google.android.gms:play-services-measurement:21.2.0] /private/var/root/.gradle/caches/transforms-3/c6e344fc91e1daefca56bd76b08cfecf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+418            android:permission="android.permission.BIND_JOB_SERVICE" />
+418-->[com.google.android.gms:play-services-measurement:21.2.0] /private/var/root/.gradle/caches/transforms-3/c6e344fc91e1daefca56bd76b08cfecf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+419
+420        <receiver
+420-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+421            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+421-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+422            android:directBootAware="false"
+422-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+423            android:enabled="true"
+423-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+424            android:exported="true"
+424-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+425            android:permission="android.permission.DUMP" >
+425-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+426            <intent-filter>
+426-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+427                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+427-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+427-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+428            </intent-filter>
+429            <intent-filter>
+429-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+430                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+430-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+430-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+431            </intent-filter>
+432            <intent-filter>
+432-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+433                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+433-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+433-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+434            </intent-filter>
+435            <intent-filter>
+435-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+436                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+436-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+436-->[androidx.profileinstaller:profileinstaller:1.3.1] /private/var/root/.gradle/caches/transforms-3/0ca6e037ae48e46ba2396f562c472ee0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+437            </intent-filter>
+438        </receiver>
+439
+440        <service
+440-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /private/var/root/.gradle/caches/transforms-3/778623e2a47c4c3495f1eb9a2e86e00b/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+441            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+441-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /private/var/root/.gradle/caches/transforms-3/778623e2a47c4c3495f1eb9a2e86e00b/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+442            android:exported="false" >
+442-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /private/var/root/.gradle/caches/transforms-3/778623e2a47c4c3495f1eb9a2e86e00b/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+443            <meta-data
+443-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /private/var/root/.gradle/caches/transforms-3/778623e2a47c4c3495f1eb9a2e86e00b/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+444                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+444-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /private/var/root/.gradle/caches/transforms-3/778623e2a47c4c3495f1eb9a2e86e00b/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+445                android:value="cct" />
+445-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /private/var/root/.gradle/caches/transforms-3/778623e2a47c4c3495f1eb9a2e86e00b/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+446        </service>
+447        <service
+447-->[com.google.android.datatransport:transport-runtime:3.1.8] /private/var/root/.gradle/caches/transforms-3/9506965391c3522915c2afdb6422992f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+448            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+448-->[com.google.android.datatransport:transport-runtime:3.1.8] /private/var/root/.gradle/caches/transforms-3/9506965391c3522915c2afdb6422992f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+449            android:exported="false"
+449-->[com.google.android.datatransport:transport-runtime:3.1.8] /private/var/root/.gradle/caches/transforms-3/9506965391c3522915c2afdb6422992f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+450            android:permission="android.permission.BIND_JOB_SERVICE" >
+450-->[com.google.android.datatransport:transport-runtime:3.1.8] /private/var/root/.gradle/caches/transforms-3/9506965391c3522915c2afdb6422992f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+451        </service>
+452
+453        <receiver
+453-->[com.google.android.datatransport:transport-runtime:3.1.8] /private/var/root/.gradle/caches/transforms-3/9506965391c3522915c2afdb6422992f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+454            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+454-->[com.google.android.datatransport:transport-runtime:3.1.8] /private/var/root/.gradle/caches/transforms-3/9506965391c3522915c2afdb6422992f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+455            android:exported="false" />
+455-->[com.google.android.datatransport:transport-runtime:3.1.8] /private/var/root/.gradle/caches/transforms-3/9506965391c3522915c2afdb6422992f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+456    </application>
+457
+458</manifest>
